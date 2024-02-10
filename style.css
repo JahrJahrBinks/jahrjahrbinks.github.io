@@ -50,23 +50,23 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
-
 
 .NoButton {
     background-color: rgb(227, 45, 39);
 }
 
 .NoButton:hover {
-    background-color: rgb(245, 48, 49);
+    background-color: rgb(253, 5, 100);
 }
 
 .yesButton {
-    background-color: rgb(21, 189, 96);
+    background-color: #1ae876;
 }
 
 .yesButton:hover {
-    background-color: rgb(24, 219, 111);
+    background-color: #13a360;
 }
 
 .text {
