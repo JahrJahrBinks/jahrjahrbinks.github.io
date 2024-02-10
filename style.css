@@ -45,12 +45,13 @@ body {
 .NoButton,
 .yesButton {
     border: none;
-    padding: 20px 20px; 
-    border-radius: 10%;
-    font-size: 20px; 
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
 }
+
 
 .NoButton {
     background-color: rgb(227, 45, 39);
@@ -61,11 +62,11 @@ body {
 }
 
 .yesButton {
-    background-color: #15bd60;
+    background-color: rgb(21, 189, 96);
 }
 
 .yesButton:hover {
-    background-color: #18ed77;
+    background-color: rgb(24, 219, 111);
 }
 
 .text {
