@@ -4,7 +4,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: white;
 }
+
 
 #root {
     font-family: 'Markazi Text', serif;
@@ -13,7 +15,7 @@ body {
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
-    background-color: #fcfcfc;
+    background-color: #ffffff;
 }
 
 .valentine-container {
@@ -40,27 +42,30 @@ body {
     gap: 10px;
 }
 
-.NoButton {
+.NoButton,
+.yesButton {
     border: none;
-    padding: 5px;
+    padding: 10px 20px; 
     border-radius: 7px;
-    font-size: 15px;
-    color: rgb(219, 214, 214);
+    font-size: 20px; 
+    font-weight: bold;
+    color: white;
+}
+
+.NoButton {
     background-color: rgb(227, 45, 39);
 }
 
 .NoButton:hover {
-    background-color: rgb(253, 5, 100);
+    background-color: rgb(245, 48, 49);
 }
 
 .yesButton {
-    border: none;
-    border-radius: 7px;
-    font-size: 50px;
+    background-color: #15bd60;
 }
 
 .yesButton:hover {
-    background-color: #1ae876;
+    background-color: #18ed77;
 }
 
 .text {
