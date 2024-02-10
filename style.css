@@ -50,8 +50,12 @@ body {
     background-color: rgb(253, 5, 100);
 }
 
+.yesButton {
+    background-color: #1ae876;
+}
+
 .yesButton:hover {
-    background-color: #13a360;
+    background-color: #13a360; /* Change color on hover */
 }
 
 .text {
