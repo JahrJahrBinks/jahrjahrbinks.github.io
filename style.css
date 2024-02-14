@@ -7,6 +7,7 @@ body {
     background-color: white;
 }
 
+
 #root {
     font-family: 'Cute Font', sans-serif;
     max-width: 100%;
@@ -15,6 +16,16 @@ body {
     padding: 2rem;
     text-align: center;
     background-color: #ffffff;
+}
+
+.valentine-container {
+    background-color: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
+.flower {
+    height: 20%;
+    width: 20%;
+    border-radius: 60%;
 }
 
 .kiss {
@@ -59,7 +70,8 @@ body {
 }
 
 .text {
-    font-size: 20px;
+    font-family: 'Gurajada', sans-serif;
+    font-size: 15px;
     color: black;
     font-weight: 500;
     margin: 10px;
